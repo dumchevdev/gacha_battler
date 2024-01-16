@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 916059553be4c5b4590e415f9fd5c0f9, type: 3}
+  m_Name: 2. Spidy-Webb-Arachnid
+  m_EditorClassIdentifier: 
+  id: 1
+  evolutionSettings:
+  - spellSettings: {fileID: 11400000, guid: 66d5016069ae1b043b595a49dae94037, type: 2}
+    monsterEvolutionSkin:
+      name: Spidy
+      icon: {fileID: 21300000, guid: 95a372ffeea2a4ae0baa518551b8566b, type: 3}
+    prefab: {fileID: 3295690693072712635, guid: 9d75c582a54631c4e87dcc987399513d, type: 3}
+    cardsRequired: 0
+  - spellSettings: {fileID: 11400000, guid: 66d5016069ae1b043b595a49dae94037, type: 2}
+    monsterEvolutionSkin:
+      name: Spidy
+      icon: {fileID: 21300000, guid: 435f95f29c793e44689bbe3f7e4cc761, type: 3}
+    prefab: {fileID: 8672787908860700878, guid: bf5449bbcac72834ca743cec98343453, type: 3}
+    cardsRequired: 3
+  - spellSettings: {fileID: 11400000, guid: 66d5016069ae1b043b595a49dae94037, type: 2}
+    monsterEvolutionSkin:
+      name: Webb
+      icon: {fileID: 21300000, guid: f4fe6675522e1cb4c8d803f58cad3572, type: 3}
+    prefab: {fileID: 8754938060832370620, guid: 6dbc16e4fba9f754bbbfa742ac74b0c9, type: 3}
+    cardsRequired: 5
+  - spellSettings: {fileID: 11400000, guid: 66d5016069ae1b043b595a49dae94037, type: 2}
+    monsterEvolutionSkin:
+      name: Arachnid
+      icon: {fileID: 21300000, guid: 6e3c1835403cf0b4c924d4a5b54972a6, type: 3}
+    prefab: {fileID: 1341914136520030688, guid: d77ff1f657d33da49b36e105a0064d0a, type: 3}
+    cardsRequired: 7
+  monsterStats:
+    health:
+      base: 160
+      baseModifier: 100
+      firstEvolutionModifier: 500
+      secondEvolutionModifier: 5000
+    damage:
+      base: 15
+      baseModifier: 10
+      firstEvolutionModifier: 200
+      secondEvolutionModifier: 1000
+    cooldown: 1.5
+    moveSpeed: 1.2
+  attackTypeSettings: {fileID: 11400000, guid: b373fb387a759b84bbe5a417f0fd82bf, type: 2}
+  levelUpgradeCost:
+    priceCoef: 1.05
+    priceMod: 100
